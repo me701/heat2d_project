@@ -20,7 +20,7 @@ forward:
 
   - `heat2d/fd2d_heat_steady.py` is the same file we saw earlier in class (unmodified
      from its [original source](https://people.sc.fsu.edu/~jburkardt/py_src/fd2d_heat_steady/fd2d_heat_steady.html) 
-     as of 10/12/2021.
+     as of 10/05/2022.
      
   - `heat2d/__init__.py` is used to perform imports and other operations
      needed to set up the module.  In particular, this imports the `solve`
@@ -61,7 +61,7 @@ forward:
     
   - Create a Jupyter notebook that demonstrates your tool by "optimizing" the 
     refrigerator materials or heat sink to
-    ensure the minimum temperature inside the refrigerator is equal to 
+    ensure the maximum temperature inside the refrigerator is equal to 
     or below 4 $^{\circle}$ C.  Show the results first for the "default" 
     configuration.  Then describe your optimization process and the
     final "design."  Compare your results to real fridges; are
@@ -82,8 +82,9 @@ forward:
     above.  Your Jupyter notebook should be committed in an "executed"
     state, i.e., all your results should be visible from GitHub.
     
-    
-    
+## Extra Credit Opportunities
+
+  - What happens if `k` depends on the temperature?
   
     
   
