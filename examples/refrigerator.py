@@ -51,6 +51,6 @@ def q(x,y):
 
 boundaries = [20.0, 20.0, 20.0, 20.0]
 
-T = solve(x, y, k, q, boundaries, plot=True, save=True)
+T = solve(x, y, k, q, boundaries, plot="fridge.png", save="fridge.txt")
 
 
