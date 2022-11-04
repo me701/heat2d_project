@@ -20,6 +20,6 @@ def q(x,y):
 
 boundaries = [10.0, 100.0, 0.0, 0.0]
 
-T = solve(x, y, k, q, boundaries, plot=True, save=True)
+T = solve(x, y, k, q, boundaries, plot="plot.png", save="temp.txt")
 
 
